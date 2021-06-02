@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Stock</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/poststock.js"></script>
+</head>
+<body>
+	<form id="stockForm" style="margin: 20px 20px 20px 20px">
+		<div>
+			<label for="name">Stock Name:</label> <input type="text"
+				id="stockName" name="stockName" required>
+		</div>
+		<br>
+		<div>
+			<label for="price">Price:</label> <input type="number" id="price"
+				name="price" required>
+		</div>
+		<br>
+		<div>
+			<label for="quantity">Quantity:</label> <input type="number"
+				id="quantity" name="quantity" required>
+		</div>
+		<br>
+		<div>
+			<input type="submit" value="submit" id="submit">
+		</div>
+	</form>
+</body>
+</html>
